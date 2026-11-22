@@ -1,0 +1,38 @@
+[
+  {
+    "omitted": [
+      "A",
+      "B",
+      "日记12"
+    ],
+    "status": "partial-order",
+    "orders": 2
+  },
+  {
+    "omitted": [
+      "B",
+      "C",
+      "断面7"
+    ],
+    "status": "partial-order",
+    "orders": 3
+  },
+  {
+    "omitted": [
+      "C",
+      "A",
+      "转抄4"
+    ],
+    "status": "partial-order",
+    "orders": 1
+  },
+  {
+    "omitted": [
+      "C",
+      "D",
+      "断面9"
+    ],
+    "status": "review-records",
+    "orders": 0
+  }
+]

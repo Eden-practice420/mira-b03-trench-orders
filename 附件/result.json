@@ -1,0 +1,209 @@
+{
+  "灰坑剖面": {
+    "status": "partial-order",
+    "extensions": 1,
+    "direct_pairs": 5,
+    "all_comparable": 10,
+    "minimal_edges": [
+      [
+        "N",
+        "F"
+      ],
+      [
+        "F",
+        "R"
+      ],
+      [
+        "R",
+        "P"
+      ],
+      [
+        "P",
+        "T"
+      ]
+    ],
+    "implied_witnesses": [
+      [
+        "N",
+        "F",
+        "R"
+      ],
+      [
+        "N",
+        "F",
+        "P"
+      ],
+      [
+        "N",
+        "F",
+        "P",
+        "T"
+      ],
+      [
+        "F",
+        "P",
+        "T"
+      ],
+      [
+        "R",
+        "P",
+        "T"
+      ]
+    ],
+    "incomparable": []
+  },
+  "南北双沟": {
+    "status": "partial-order",
+    "extensions": 6,
+    "direct_pairs": 6,
+    "all_comparable": 11,
+    "minimal_edges": [
+      [
+        "N",
+        "A"
+      ],
+      [
+        "N",
+        "B"
+      ],
+      [
+        "A",
+        "C"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "C",
+        "E"
+      ],
+      [
+        "D",
+        "E"
+      ]
+    ],
+    "implied_witnesses": [
+      [
+        "N",
+        "A",
+        "C"
+      ],
+      [
+        "N",
+        "B",
+        "D"
+      ],
+      [
+        "N",
+        "A",
+        "C",
+        "E"
+      ],
+      [
+        "A",
+        "C",
+        "E"
+      ],
+      [
+        "B",
+        "D",
+        "E"
+      ]
+    ],
+    "incomparable": [
+      [
+        "A",
+        "B"
+      ],
+      [
+        "A",
+        "D"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "C",
+        "D"
+      ]
+    ]
+  },
+  "台地拼方": {
+    "status": "partial-order",
+    "extensions": 30,
+    "direct_pairs": 2,
+    "all_comparable": 2,
+    "minimal_edges": [
+      [
+        "A",
+        "B"
+      ],
+      [
+        "C",
+        "D"
+      ]
+    ],
+    "implied_witnesses": [],
+    "incomparable": [
+      [
+        "A",
+        "C"
+      ],
+      [
+        "A",
+        "D"
+      ],
+      [
+        "A",
+        "E"
+      ],
+      [
+        "B",
+        "C"
+      ],
+      [
+        "B",
+        "D"
+      ],
+      [
+        "B",
+        "E"
+      ],
+      [
+        "C",
+        "E"
+      ],
+      [
+        "D",
+        "E"
+      ]
+    ]
+  },
+  "抄录冲突": {
+    "status": "review-records",
+    "extensions": 0,
+    "conflicts": [
+      {
+        "cycle": [
+          "A",
+          "B",
+          "C",
+          "A"
+        ],
+        "field_records": [
+          [
+            "日记12"
+          ],
+          [
+            "断面7"
+          ],
+          [
+            "转抄4"
+          ]
+        ]
+      }
+    ]
+  }
+}

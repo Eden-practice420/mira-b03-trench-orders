@@ -1,0 +1,11 @@
+{"version": 2, "width": 100, "height": 24, "title": "B03-trench-orders / 本地科学复演", "env": {"TERM": "xterm-256color"}}
+[0, "o", "$ python -X utf8 demo/replay.py\r\n"]
+[0.1183, "o", "RUN  analyze.py trenches.json\r\n"]
+[0.1937, "o", "南北双沟 | 合法顺序 6\r\n"]
+[0.1937, "o", "抄录冲突 | A > B > C > A\r\n"]
+[0.1937, "o", "矛盾记录 | 日记12 / 断面7 / 转抄4\r\n"]
+[0.1937, "o", "RUN  survey.py\r\n"]
+[0.2677, "o", "可行历史 | 140\r\n"]
+[0.2677, "o", "field-id | 两次后均值 49.0 | 最坏 63\r\n"]
+[0.2677, "o", "split | 两次后均值 35.714 | 最坏 40\r\n"]
+[0.2677, "o", "无法观测 | 保留 140 种\r\n"]

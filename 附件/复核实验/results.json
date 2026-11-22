@@ -1,0 +1,122 @@
+{
+  "two-trenches": {
+    "initial_orders": 140,
+    "unobservable_first_probe_orders": 140,
+    "field-id": {
+      "first_probe": [
+        "A",
+        "D"
+      ],
+      "steps": {
+        "1": {
+          "expected": 70.0,
+          "worst": 70,
+          "best": 70
+        },
+        "2": {
+          "expected": 49.0,
+          "worst": 63,
+          "best": 7
+        }
+      }
+    },
+    "split": {
+      "first_probe": [
+        "A",
+        "D"
+      ],
+      "steps": {
+        "1": {
+          "expected": 70.0,
+          "worst": 70,
+          "best": 70
+        },
+        "2": {
+          "expected": 35.714,
+          "worst": 40,
+          "best": 30
+        }
+      }
+    }
+  },
+  "isolated-context": {
+    "initial_orders": 96,
+    "unobservable_first_probe_orders": 96,
+    "field-id": {
+      "first_probe": [
+        "A",
+        "C"
+      ],
+      "steps": {
+        "1": {
+          "expected": 48.0,
+          "worst": 48,
+          "best": 48
+        },
+        "2": {
+          "expected": 28.688,
+          "worst": 36,
+          "best": 12
+        }
+      }
+    },
+    "split": {
+      "first_probe": [
+        "A",
+        "C"
+      ],
+      "steps": {
+        "1": {
+          "expected": 48.0,
+          "worst": 48,
+          "best": 48
+        },
+        "2": {
+          "expected": 25.5,
+          "worst": 30,
+          "best": 18
+        }
+      }
+    }
+  },
+  "one-accessible-contact": {
+    "initial_orders": 90,
+    "unobservable_first_probe_orders": 90,
+    "field-id": {
+      "first_probe": [
+        "A",
+        "F"
+      ],
+      "steps": {
+        "1": {
+          "expected": 65.0,
+          "worst": 75,
+          "best": 15
+        },
+        "2": {
+          "expected": 65.0,
+          "worst": 75,
+          "best": 15
+        }
+      }
+    },
+    "split": {
+      "first_probe": [
+        "A",
+        "F"
+      ],
+      "steps": {
+        "1": {
+          "expected": 65.0,
+          "worst": 75,
+          "best": 15
+        },
+        "2": {
+          "expected": 65.0,
+          "worst": 75,
+          "best": 15
+        }
+      }
+    }
+  }
+}
